@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Don't Stop "4-to_infinity_and_beyond" process
+
+Don't Stop "$(pgrep -f "4-to_infinity_and_beyond")"
