@@ -1,2 +1,3 @@
 #!/usr/bin/env ruby
-puts ARGV[0].scan(/hbt{0,}n/).join
+# Ruby script that use regex with {m,n} token
+puts ARGV[0].scan(/hbt*n/).join

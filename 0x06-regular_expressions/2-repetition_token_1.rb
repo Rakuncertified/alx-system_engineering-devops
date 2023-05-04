@@ -1,8 +1,4 @@
 #!/usr/bin/env ruby
 
-input_string = ARGV[0]
-
-if input_string.match(/hbt+n/)
-  puts input_string
-end
-
+# Ruby script that acepts one argument and use {m,n} token
+puts ARGV[0].scan(/hb{0,1}t{0,1}n/).join
